@@ -8,8 +8,8 @@
     "test": "NODE_ENV=test node src/test.js"
   },
   "dependencies": {
-    "@palantir/compute-module": "^0.2.0",
-    "@sinclair/typebox": "^0.32.14",
+    "@palantir/compute-module": "^0.2.14",
+    "@sinclair/typebox": "^0.32.37",
     "googleapis": "^129.0.0"
   },
   "engines": {

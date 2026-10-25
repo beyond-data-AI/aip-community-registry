@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "@custom-widget/sdk": "^0.1.0",
-    "@osdk/client": "^2.0.11",
-    "@osdk/foundry": "^2.6.0",
-    "@osdk/oauth": "^1.0.1",
-    "@osdk/workshop-iframe-custom-widget": "^1.0.5",
+    "@osdk/client": "^2.83.0",
+    "@osdk/foundry": "^2.86.0",
+    "@osdk/oauth": "^1.14.0",
+    "@osdk/workshop-iframe-custom-widget": "^1.1.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-router-dom": "^6.23.1",
+    "react-router-dom": "^6.30.6",
     "react-typing-effect": "^2.0.5"
   },
   "devDependencies": {
@@ -26,14 +26,14 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-typing-effect": "^2.0.7",
-    "@typescript-eslint/eslint-plugin": "^7.16.0",
-    "@typescript-eslint/parser": "^7.16.0",
-    "@vitejs/plugin-react": "^4.2.0",
-    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.6",
-    "typescript": "~5.5.4",
-    "vite": "^5.4.8",
-    "vitest": "^2.1.2"
+    "eslint-plugin-react-refresh": "^0.4.26",
+    "typescript": "~5.9.3",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
   }
 }
