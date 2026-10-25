@@ -1,5 +1,5 @@
 # Change the platform based on your Foundry resource queue
-FROM --platform=linux/amd64 python:3.12
+FROM --platform=linux/amd64 python:3.14
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
