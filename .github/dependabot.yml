@@ -1,0 +1,55 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directories:
+      - "/11labs Conversational AI Agent - Workshop Widget/react-app-widget"
+      - "/ASWF-2024Hackathon-HADRAid/HADR-Aid-Code-Repository"
+      - "/ASWF-2024Hackathon-SARR/Code"
+      - "/Foundry for Tunes/react_app"
+      - "/GSuite_Send_Email_Compute_Module/compute_module"
+      - "/OSDK Widget in Foundry/app"
+      - "/Tailbook/whale-book"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: ["minor", "patch"]
+      major:
+        update-types: ["major"]
+
+  - package-ecosystem: "pip"
+    directory: "/Compute Module 'Hello World' Project/app"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: ["minor", "patch"]
+      major:
+        update-types: ["major"]
+
+  - package-ecosystem: "docker"
+    directories:
+      - "/Compute Module 'Hello World' Project/app"
+      - "/GSuite_Send_Email_Compute_Module/compute_module"
+      - "/Integrating a Server with Compute Modules/code"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: ["minor", "patch"]
+      major:
+        update-types: ["major"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: ["minor", "patch"]
+      major:
+        update-types: ["major"]
